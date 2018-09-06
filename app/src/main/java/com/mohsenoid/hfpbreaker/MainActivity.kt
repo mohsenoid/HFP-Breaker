@@ -107,7 +107,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun log(message: String) {
-        txtLog.text = "${txtLog.text}\n$message\n"
+        txtLog.text = "$message\n${txtLog.text}"
     }
 
     companion object {
